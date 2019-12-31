@@ -54,4 +54,6 @@ $ pip install PyGithub
 
 **GitHub**@ [david-pzh](https://github.com/david-pzh) （项目资料开源和维护地址）
 
+喜欢的话麻烦也顺手给本仓库点个星~
+
 ![img](https://pic3.zhimg.com/80/v2-bf913e9c68d5ea7539ad10a2b6b35af2_hd.jpg)
