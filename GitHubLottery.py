@@ -19,7 +19,7 @@ def get_lucky_dogs():
     # Now list the users
     stared_users = []
     for user in repo.get_stargazers():
-        stared_users.append(user.email)
+        stared_users.append(user)
 
     return stared_users
 
@@ -33,4 +33,4 @@ if __name__ == "__main__":
 
     print("\n\n--- Congratulations!!! --- \n\n")
     alist = random.sample(range(0, len(stared_users)), N)
-    [print(stared_users[i]) for i in alist]
+    [print("{} ({})".format(stared_users[i].login, stared_users[i].email)) for i in alist]
