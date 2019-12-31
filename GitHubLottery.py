@@ -19,7 +19,7 @@ def get_lucky_dogs():
     # Now list the users
     stared_users = []
     for user in repo.get_stargazers():
-        stared_users.append(user.login)
+        stared_users.append(user.email)
 
     return stared_users
 
